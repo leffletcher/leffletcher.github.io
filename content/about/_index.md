@@ -18,7 +18,7 @@ interests:
     - Language Evolution
     - Developmental language disorders & differences (with a focus on autism)
     - Linguistic variation & change
-    - The interaction of pragmatics, languag use, and language evolution
+    - The interaction of pragmatics, language use, and language evolution
 
 affiliations:
     - affiliation:

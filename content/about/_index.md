@@ -6,13 +6,12 @@ headless: true
 
 full_name: "Lauren E. F. Fletcher"
 profile_picture: "profile.png"
-cv: "cv.pdf"
 # set to false if you don't want to show your blog
 blog: false
 
 socials:
     github: "leffletcher"
-    linkedin: "Lauren Fletcher"
+    linkedin: "lauren-fletcher-0068b0198"
 
 interests:
     - Language Evolution

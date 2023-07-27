@@ -6,9 +6,8 @@ weight: 3
 
 content_type: 'publications'
 section_settings:
-    show_section: false
-    title: 'Recent Publications'
-    subtitle: 'Custom Subtitle: see my google scholar for the latest list'    
+    show_section: true
+    title: 'Recent Publications'   
 ---
 
 home/publications.md

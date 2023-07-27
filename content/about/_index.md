@@ -11,7 +11,7 @@ blog: false
 
 socials:
     github: "leffletcher"
-    linkedin: "lauren-fletcher-0068b0198"
+    linkedin: "/lauren-fletcher-0068b0198/"
 
 interests:
     - Language Evolution

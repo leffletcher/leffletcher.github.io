@@ -11,10 +11,10 @@ blog: false
 
 socials:
     github: "leffletcher"
-    linkedin: "/lauren-fletcher-0068b0198/"
+    linkedin: "lauren-fletcher-0068b0198"
 
 interests:
-    - Language Evolution
+    - Language evolution
     - Developmental language disorders & differences (with a focus on autism)
     - Linguistic variation & change
     - The interaction of pragmatics, language use, and language evolution

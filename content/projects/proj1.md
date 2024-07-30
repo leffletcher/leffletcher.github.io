@@ -1,10 +1,8 @@
 ---
-title: "Quisque: Lime Trout Sheepdog"
+title: "Origins and Evolution of Language"
 
-date: "2018-05-18"
+date: "2023-2024"
 
-links:
-    website: 'https://github.com/hadisinaee/avicenna'
-    alias: link_name_here
 ---
 
+Tutor and marker for undergraduates and master's students.

@@ -15,7 +15,7 @@ socials:
 
 interests:
     - Language evolution
-    - Developmental language disorders & differences (with a focus on autism)
+    - Neurodiversity and its interaction with language (focus on autism)
     - Linguistic variation & change
     - The interaction of pragmatics, language use, and language evolution
 
@@ -31,6 +31,7 @@ academia:
         institution:  "University of Edinburgh"
         major: "Natural Language Processing"
         start_date: "2020"
+        other_info: "Project examines the impact of neurodiversity (with a focus on autism) on language evolution, examining how autistic differences might contribute to language change."
     - course:
         degree: "MSc"
         institution: 'University of Edinburgh'
@@ -44,13 +45,12 @@ academia:
         major: 'Linguistics'
         start_date: '2016'
         end_date: '2019'
-        other_info: 'First class (hons). Dissertation Project: "Alexa, tell me a joke": an investigation into the integration of pragmatic linguistic theories of humour into spoken dialogue systems.'
+        other_info: 'First class (hons). Magdalene College. Dissertation Project: "Alexa, tell me a joke": an investigation into the integration of pragmatic linguistic theories of humour into spoken dialogue systems.'
 ---
 
-I am a third year student at the [Centre for Doctoral Training in NLP][1] at the University of Edinburgh, researching the **interaction between language evolution and neurodivergent language users** (with a focus on autistic language users). I am a member of Edinburgh's [Centre for Language Evolution][4].
+I am a fourth year student at the [Centre for Doctoral Training in NLP][1] at the University of Edinburgh, researching the **interaction between language evolution and neurodivergent language users** (with a focus on autistic people). I am a member of Edinburgh's [Centre for Language Evolution][4]. I am supervised by [Jennifer Culbertson][2] and [Hugh Rabagliati][3]. I am an autistic autism researcher .
 
-I am supervised by [Jennifer Culbertson][2] and [Hugh Rabagliati][3].
-
+(The cat in the picture is my beloved cat Itsy, who passed away in 2019 whilst I was doing my Master's degree.)
 
 
 [1]: https://web.inf.ed.ac.uk/cdt/natural-language-processing

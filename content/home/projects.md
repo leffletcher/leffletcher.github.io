@@ -1,5 +1,5 @@
 ---
-title: "Projects"
+title: "Teaching"
 date: 2020-10-20T18:55:12+03:30
 headless: true
 weight: 4
@@ -7,7 +7,7 @@ content_type: "projects"
 
 section_settings:
     show_section: false
-    title: ''
+    title: 'Teaching'
     subtitle: 'Custom Subtitle: see my github for the complete list'
 ---
 

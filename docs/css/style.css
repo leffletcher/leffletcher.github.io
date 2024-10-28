@@ -1,8 +1,15 @@
 
-body {
+html body {
+    display: flex;          /* Make body a flex container */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center;    /* Center children horizontally */
     font-family: 'Inter', sans-serif;
-    color: #071013;
+    color: #071013 !important;
+    padding-top: 0px;      /* Ensure this value is adequate */
+    margin: 0;              /* Reset any default margin */
+    width: 100%;            /* Full width */
 }
+
 
 a {
     color: #8C1515;
@@ -270,4 +277,38 @@ h2 code {
 
 .read_more {
     margin-top: 1%;
+}
+
+.custom_nav_bar {
+    background-color: #8C1515; /* Red background */
+    width: 100%;           /* Full width */
+    max-width: 1200px;    /* Optional: limit the maximum width */
+    padding: 15px 0;       /* Padding to give some height */
+    z-index: 1000;         /* Ensure it stays above other content */
+    margin: 0 auto;        /* Center the navbar */
+}
+
+
+.custom_nav_bar ul {
+    list-style: none;      /* Remove bullet points */
+    margin: 0;            /* Remove default margin */
+    padding: 0;           /* Remove default padding */
+    display: flex;        /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center the list items horizontally */
+    align-items: center;  /* Align items vertically */
+    width: 100%;          /* Ensure ul takes full width */
+}
+
+.custom_nav_bar ul li {
+    margin: 0 20px;       /* Add spacing between each link */
+}
+
+.custom_nav_bar ul li a {
+    color: white;         /* White text for the links */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px;      /* Adjust font size */
+}
+
+.custom_nav_bar ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
 }

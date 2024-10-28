@@ -11,7 +11,7 @@ enableEmoji = true
 theme = "avicenna"
 
 # This is your page title, it appears in your tab
-title = "L. E. F. Fletcher"
+title = "Lauren Fletcher"
 
 # number of posts to show on the blog page
 paginate = 10
@@ -24,7 +24,7 @@ startLevel = 1
 
 [params]
 # it is used for the copy-right section of your page
-name = "L. E. F. Fletcher"
+name = "Lauren Fletcher"
 
 [menu]
 [[menu.main]]

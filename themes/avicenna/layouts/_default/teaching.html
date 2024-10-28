@@ -1,0 +1,37 @@
+{{ define "main" }}
+<link rel="stylesheet" href="/css/style.css"> <!-- Include the CSS -->
+
+{{ $content_type := .Params.content_type }}
+{{ $teachingPage := .Site.GetPage $content_type }}
+
+{{ if $teachingPage.Params.teaching }}
+<div class="teaching col">
+    <h4 class="main_color" style="text-align: center;">Teaching Experience</h4>
+    {{ range $section := $teachingPage.Params.teaching }}
+    <div class="sub-section">
+        <h5 class="sub-title" style="text-align: center;">{{ $section.title }}</h5>
+        {{ range $course := $section.courses }}
+        <div class="row">
+            <div class="course col">
+                <div class="course_title">
+                    {{$course.title}} <!-- Use the course title parameter -->
+                </div>
+                <div class="main_color dates">
+                    {{$course.start_date}} - {{ if $course.end_date }}{{$course.end_date}}{{else}}present{{end}} <!-- Start date and end date -->
+                </div>
+                {{ if $course.other_info }}
+                <div class="other_info text-muted">
+                    {{$course.other_info}} <!-- Other info parameter -->
+                </div>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+    {{ end }}
+</div>
+{{ end }}
+
+
+{{ .Content }} <!-- This renders the body of index.md -->
+{{ end }}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="{{ with .Site.LanguageCode }}{{.}}{{ else }}en-us{{end}}">
+
+<head>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+{{- partial "core/header.html" . }}
+
+{{- partial "core/head.html" . -}}
+
+<body class="container d-flex flex-column min-vh-100">
+   
+
+    {{- block "main" . }}{{- end }}
+
+    
+
+
+    {{- partial "core/footer.html" . -}}
+    {{- partial "core/script.html" . -}}
+</body>
+
+</html>

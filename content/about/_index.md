@@ -25,27 +25,7 @@ affiliations:
         name: "University of Edinburgh"
         email: "l.e.f.fletcher [@] sms.ed.ac.uk"
 
-academia:
-    - course:
-        degree: "PhD"
-        institution:  "University of Edinburgh"
-        major: "Natural Language Processing"
-        start_date: "2020"
-        other_info: "Project examines the impact of neurodiversity (with a focus on autism) on language evolution, examining how autistic differences might contribute to language change."
-    - course:
-        degree: "MSc"
-        institution: 'University of Edinburgh'
-        major: 'Linguistics'
-        start_date: '2019'
-        end_date: '2020'
-        other_info: 'Distinction. Dissertation project: The Learnability of the Inclusive and Exclusive Disjunction Distinction (supervised by Jenny Culbertson, Wataru Uegaki, and Mora Moldonado)'
-    - course:
-        degree: "BA"
-        institution: 'University of Cambridge'
-        major: 'Linguistics'
-        start_date: '2016'
-        end_date: '2019'
-        other_info: 'First class (hons). Magdalene College. Dissertation Project: "Alexa, tell me a joke": an investigation into the integration of pragmatic linguistic theories of humour into spoken dialogue systems.'
+
 ---
 
 I am a fourth year student at the [Centre for Doctoral Training in NLP][1] at the University of Edinburgh, researching the **interaction between language evolution and neurodivergent language users** (with a focus on autistic people). I am a member of Edinburgh's [Centre for Language Evolution][4]. I am supervised by [Jennifer Culbertson][2] and [Hugh Rabagliati][3]. I am an autistic autism researcher .

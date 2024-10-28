@@ -25,3 +25,10 @@ startLevel = 1
 [params]
 # it is used for the copy-right section of your page
 name = "L. E. F. Fletcher"
+
+[menu]
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1

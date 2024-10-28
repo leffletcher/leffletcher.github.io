@@ -1,5 +1,5 @@
 baseURL = "https://leffletcher.github.io/"
-publishDir = "docs"
+publishDir = "public"
 
 # set your your own ga token here.
 googleAnalytics = "UA/G-123123-12"

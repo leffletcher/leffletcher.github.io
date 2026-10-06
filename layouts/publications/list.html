@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+<div class="row w-100">
+    <div class="col w-100">
+
+        <h3 class="row w-100 section-title main_color">
+            {{ .Title }}
+        </h3>
+
+        {{ partial "publications/publications.html" . }}
+
+    </div>
+</div>
+
+{{ end }}

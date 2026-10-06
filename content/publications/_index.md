@@ -1,5 +1,5 @@
 ---
 title: "Publications and Conferences"
-date: 2020-10-20T18:55:12+03:30
+layout: "publications"
 content_type: "publications"
 ---

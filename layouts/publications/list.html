@@ -1,0 +1,38 @@
+{{ define "main" }}
+
+<div class="container">
+    <div class="row">
+        <div class="col w-100">
+
+            <h1 class="main_color">{{ .Title }}</h1>
+
+            {{ range .Pages.ByDate.Reverse }}
+
+                <article class="publication">
+                    <h3>{{ .Title }}</h3>
+
+                    {{ if .Params.authors }}
+                    <p>{{ delimit .Params.authors ", " }}</p>
+                    {{ end }}
+
+                    {{ if .Params.publication }}
+                    <p><em>{{ .Params.publication }}</em></p>
+                    {{ end }}
+
+                    {{ if .Params.date }}
+                    <p>{{ .Params.date.Format "2006" }}</p>
+                    {{ end }}
+
+                    {{ with .Params.links.pdf }}
+                    <p><a href="{{ . }}">PDF</a></p>
+                    {{ end }}
+
+                </article>
+
+            {{ end }}
+
+        </div>
+    </div>
+</div>
+
+{{ end }}

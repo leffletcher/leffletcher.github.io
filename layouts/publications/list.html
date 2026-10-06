@@ -1,36 +1,63 @@
 {{ define "main" }}
 
-<h3 class="section-title main_color">{{ .Title }}</h3>
+<link rel="stylesheet" href="/css/style.css">
 
-{{ range .Pages }}
+<div class="teaching col">
 
-<div class="publication">
+    <h4 class="main_color" style="text-align: center;">
+        Publications and Conferences
+    </h4>
 
-    <h4>{{ .Title }}</h4>
+    <div class="sub-section">
 
-    <p>
-        {{ .Date.Format "2006" }}
-        {{ with .Params.publication }}
-        — {{ . }}
+        {{ range .Pages.ByDate.Reverse }}
+
+        <div class="row">
+
+            <div class="course col">
+
+                <div class="course_title">
+                    {{ .Title }}
+                </div>
+
+                <div class="main_color dates">
+                    {{ .Date.Format "2006" }}
+                </div>
+
+                {{ with .Params.authors }}
+                <div class="other_info text-muted">
+                    {{ delimit . ", " }}
+                </div>
+                {{ end }}
+
+                {{ with .Params.publication }}
+                <div class="other_info text-muted">
+                    <em>{{ . }}</em>
+                </div>
+                {{ end }}
+
+                {{ with .Params.links }}
+                <div class="other_info">
+                    {{ range $name, $url := . }}
+                    <a class="main_color text-decoration-none rounded"
+                       href="{{ $url }}"
+                       target="_blank">
+                        {{ $name }}
+                    </a>
+                    {{ end }}
+                </div>
+                {{ end }}
+
+            </div>
+
+        </div>
+
         {{ end }}
-    </p>
 
-    {{ with .Params.authors }}
-    <p>
-        {{ delimit . ", " }}
-    </p>
-    {{ end }}
-
-    {{ with .Params.links }}
-    <p>
-        {{ range $name, $url := . }}
-        <a href="{{ $url }}" target="_blank">{{ $name }}</a>
-        {{ end }}
-    </p>
-    {{ end }}
+    </div>
 
 </div>
 
-{{ end }}
+{{ .Content }}
 
 {{ end }}

@@ -17,7 +17,6 @@ teaching:
       - title: "Sociolinguistics (Hons)"
         start_date: "2023"
         end_date: "2025"
-        other_info: "Honours course providing an introduction to the study of the relationship between language and gender."
         other_info: "Honours course providing an introduction to the study of the relationship between language and various elements of social identity, such as age, gender, class, region and sexuality, as well as language ideologies and politics. Course leader: [Dr Christian Ilbury](https://edwebprofiles.ed.ac.uk/profile/christian-ilbury)."
       - title: "Linguistics and English Language 1B"
         start_date: "2021"

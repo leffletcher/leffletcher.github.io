@@ -4,7 +4,7 @@ authors:
 - Lauren Fletcher
 - Jennifer Culbertson
 - Hugh Rabagliati
-date: "2025"
+date: 2025
 
 publication: "Proceedings of the 47th Annual Meeting of the Cognitive Science Society"
 

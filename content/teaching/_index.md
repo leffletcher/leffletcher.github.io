@@ -33,6 +33,4 @@ teaching:
       - title: "Associate Fellow of AdvanceHE"
         start_date: "2025"
         end_date: "Present"
-
-[1]
 ---

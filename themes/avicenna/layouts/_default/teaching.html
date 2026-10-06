@@ -21,7 +21,7 @@
                 </div>
                 {{ if $course.other_info }}
                 <div class="other_info text-muted">
-                    {{$course.other_info}} <!-- Other info parameter -->
+                    {{$course.other_info | markdownify}} <!-- Other info parameter -->
                 </div>
                 {{ end }}
             </div>

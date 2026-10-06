@@ -28,7 +28,7 @@ affiliations:
 
 ---
 
-I arecently completed my PhD at the University of Edinburgh (as a member of the [Centre for Doctoral Training in NLP][1], supervised by [Jennifer Culbertson][2] and [Hugh Rabagliati][3].) As of October 2026, I am a (junior) Research Fellow at [Emmanuel College, Cambridge][4]. 
+I recently completed my PhD at the University of Edinburgh (as a member of the [Centre for Doctoral Training in NLP][1], supervised by [Jennifer Culbertson][2] and [Hugh Rabagliati][3].) As of October 2026, I am a (junior) Research Fellow at [Emmanuel College, Cambridge][4]. 
 
 I am interested in the interaction between **language change and and neurodiversity**. Specifically, I consider how we, as humans with our vast diversity in cognitive functioning, arrive at shared linguistic systems, and how individual differences may systematically impact those languages. I particularly focus on autistic language users (as an autistic researcher myself!), but have also considered the role of language users with ADHD. I am also interested in the sociolinguistics of neurodiversity and how neurodivergent people form their linguistic identities. 
 

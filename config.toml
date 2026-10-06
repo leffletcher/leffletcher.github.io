@@ -37,16 +37,16 @@ weight = 1
 identifier = "publications"
 name = "Publications"
 url = "/publications/"
-weight = 3
+weight = 2
 
 [[menu.main]]
 identifier = "teaching"
 name = "Teaching"
 url = "/teaching/"
-weight = 4
+weight = 3
 
 [[menu.main]]
 identifier = "cv"
 name = "CV"
 url = "/cv/"
-weight = 5
+weight = 4

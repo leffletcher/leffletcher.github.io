@@ -21,14 +21,16 @@ interests:
 
 affiliations:
     - affiliation:
-        title: "CDT in NLP PhD Sudent"
-        name: "University of Edinburgh"
-        email: "l.e.f.fletcher [@] sms.ed.ac.uk"
+        title: "Research Fellow"
+        name: "Emmanuel College, University of Cambridge"
+        email: "current: leff2 [@] cam.ac.uk ; previously: l.e.f.fletcher [@] sms.ed.ac.uk"
 
 
 ---
 
-I am a fourth year student at the [Centre for Doctoral Training in NLP][1] at the University of Edinburgh, researching the **interaction between language evolution and neurodivergent language users** (with a focus on autistic people). I am a member of Edinburgh's [Centre for Language Evolution][4]. I am supervised by [Jennifer Culbertson][2] and [Hugh Rabagliati][3]. I am an autistic autism researcher .
+I arecently completed my PhD at the University of Edinburgh (as a member of the [Centre for Doctoral Training in NLP][1], supervised by [Jennifer Culbertson][2] and [Hugh Rabagliati][3].) As of October 2026, I am a (junior) Research Fellow at [Emmanuel College, Cambridge][4]. 
+
+I am interested in the interaction between **language change and and neurodiversity**. Specifically, I consider how we, as humans with our vast diversity in cognitive functioning, arrive at shared linguistic systems, and how individual differences may systematically impact those languages. I particularly focus on autistic language users (as an autistic researcher myself!), but have also considered the role of language users with ADHD. I am also interested in the sociolinguistics of neurodiversity and how neurodivergent people form their linguistic identities. 
 
 (The cat in the picture is my beloved cat Itsy, who passed away in 2019 whilst I was doing my Master's degree.)
 
@@ -36,4 +38,5 @@ I am a fourth year student at the [Centre for Doctoral Training in NLP][1] at th
 [1]: https://web.inf.ed.ac.uk/cdt/natural-language-processing
 [2]: https://jennifer-culbertson.github.io
 [3]: https://www.ed.ac.uk/profile/hugh-rabagliati
-[4]: https://cle.ppls.ed.ac.uk/
+[4]: https://www.emma.cam.ac.uk/
+[5]: https://cle.ppls.ed.ac.uk/

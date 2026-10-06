@@ -7,7 +7,56 @@
             {{ .Title }}
         </h3>
 
-        {{ partial "publications/publications.html" . }}
+        <div class="publications row w-100">
+            <div class="col w-100">
+
+                {{ range .Pages.ByDate.Reverse }}
+
+                <div class="publication row w-100">
+
+                    <div class="section-1 w-100">
+                        <span>
+                            {{ .Title }},
+                        </span>
+
+                        <span class="text-muted publication-date">
+                            {{ .Date.Format "2006" }},
+                        </span>
+
+                        <span class="text-muted publication-name">
+                            {{ .Params.publication }}
+                        </span>
+                    </div>
+
+                    <div class="section-2 text-muted w-100">
+                        {{ range $i, $author := .Params.authors }}
+                            <span>{{ $author }}</span>
+                            {{ if lt $i (sub (len $.Params.authors) 1) }}
+                                <span class="separator">,</span>
+                            {{ end }}
+                        {{ end }}
+                    </div>
+
+                    {{ if .Params.links }}
+                    <div class="section-3 w-100">
+                        {{ range $link_name, $link_url := .Params.links }}
+                            {{ if $link_url }}
+                            <a class="main_color text-decoration-none rounded"
+                               href="{{ $link_url }}"
+                               target="_blank">
+                                {{ $link_name }}
+                            </a>
+                            {{ end }}
+                        {{ end }}
+                    </div>
+                    {{ end }}
+
+                </div>
+
+                {{ end }}
+
+            </div>
+        </div>
 
     </div>
 </div>

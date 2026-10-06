@@ -1,7 +1,6 @@
 ---
 title: "Teaching"
 date: 2024-10-23
-headless: true
 layout: 'teaching'
 content_type: "teaching"
 teaching:
@@ -9,14 +8,14 @@ teaching:
     courses:
       - title: "PPLS Skills Centre"
         start_date: "2022"
-        end_date: "Present"
+        end_date: "2025"
         other_info: "Writing tutor at the PPLS Skills Centre, providing one-to-one support to students in areas such as clarity of expression, argumentation, and critically analysing other researchers' work." 
       - title: "Origins and Evolution of Language (Hons)"
         start_date: "2021"
-        end_date: "Present"
+        end_date: "2025"
         other_info: "Honours and MSc course providing an overview of how and why human language evolved."
       - title: "Sociolinguistics (Hons)"
-        start_date: "2023"
+        start_date: "2025"
         end_date: "Present"
         other_info: "Honours course providing an introduction to the study of the relationship between language and gender."
       - title: "Linguistics and English Language 1B"
@@ -31,7 +30,7 @@ teaching:
     courses:
       - title: "Nominated for EUSA Student Tutor of the Year"
         end_date: "2024"
-      - title: "Currently working towards accreditation as Associate Fellow of Advanced HE"
-        start_date: "2024"
+      - title: "ASsociate Fellow of AdvanceHE"
+        start_date: "2025"
         end_date: "Present"
 ---

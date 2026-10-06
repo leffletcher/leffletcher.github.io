@@ -32,3 +32,21 @@ identifier = "home"
 name = "Home"
 url = "/"
 weight = 1
+
+[[menu.main]]
+identifier = "publications"
+name = "Publications & Conferences"
+url = "/publications/"
+weight = 3
+
+[[menu.main]]
+identifier = "teaching"
+name = "Teaching"
+url = "/teaching/"
+weight = 4
+
+[[menu.main]]
+identifier = "cv"
+name = "CV"
+url = "/cv/"
+weight = 5

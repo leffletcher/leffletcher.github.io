@@ -15,8 +15,8 @@ teaching:
         end_date: "2025"
         other_info: "Honours and MSc course providing an overview of how and why human language evolved."
       - title: "Sociolinguistics (Hons)"
-        start_date: "2025"
-        end_date: "Present"
+        start_date: "2023"
+        end_date: "2025"
         other_info: "Honours course providing an introduction to the study of the relationship between language and gender."
       - title: "Linguistics and English Language 1B"
         start_date: "2021"
@@ -30,7 +30,7 @@ teaching:
     courses:
       - title: "Nominated for EUSA Student Tutor of the Year"
         end_date: "2024"
-      - title: "ASsociate Fellow of AdvanceHE"
+      - title: "Associate Fellow of AdvanceHE"
         start_date: "2025"
         end_date: "Present"
 ---

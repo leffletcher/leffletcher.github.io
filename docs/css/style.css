@@ -16,20 +16,19 @@ a {
 }
 
 .page-section-title {
-    text-align: center;
     margin-top: 3%;
 }
 
 .course_title {
-    font-size: 13pt;
+    font-size: 1.15em !important;
 }
 
 .dates {
-    font-size: 13pt;
+    font-size: 1.15em !important;
 }
 
 .other_info {
-    font-size: 13pt;
+    font-size: 1.15em !important;
 }
 
 a:hover {

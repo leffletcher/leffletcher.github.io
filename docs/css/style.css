@@ -15,6 +15,23 @@ a {
     color: #8C1515;
 }
 
+.page-section-title {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.course_title {
+    font-size: 13pt;
+}
+
+.dates {
+    font-size: 13pt;
+}
+
+.other_info {
+    font-size: 13pt;
+}
+
 a:hover {
     text-decoration: underline;
     color: #050517;
